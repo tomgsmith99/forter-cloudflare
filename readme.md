@@ -11,7 +11,7 @@ This project contains a Cloudflare worker built using the Cloudflare Wrangler de
 
 This Cloudflare worker is designed to proxy POST requests to an origin's `/login` endpoint.
 
-There is an accompanying project that provides:
+There is an accompanying project available [here](https://github.com/tomgsmith99/forter-example-origin) that provides:
 
 a front end - which renders a login form
 
@@ -48,7 +48,7 @@ Copy the `wrangler_example.toml` file to wrangler.toml and update the values for
 
 Note: the value `FORTER_KEY_ENCODED` should be a base64-encoded string:
 
-base64(forter_key:)
+str(base64encode(forter_key:))
 
 Import `src/index.js` into your Wrangler project.
 
