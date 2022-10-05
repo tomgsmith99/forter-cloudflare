@@ -1,0 +1,19 @@
+name = "cloudflare-tomgsmith99-test"
+main = "src/index.js"
+compatibility_date = "2022-09-26"
+
+[vars]
+FORTER_API_VERSION = "2.36"
+FORTER_SITE_ID = "63bf0782ae27"
+FORTER_KEY_ENCODED = ""
+USER_DIRECTORY_URL = "http://localhost:33509/login"
+ORIGIN = "https://f-test-cf.herokuapp.com/login-1"
+
+[env.production]
+name = "cloudflare-tomgsmith99-test"
+[env.production.vars]
+FORTER_API_VERSION = "2.36"
+FORTER_SITE_ID = "63bf0782ae27"
+FORTER_KEY_ENCODED = ""
+USER_DIRECTORY_URL = "https://f-test-cf.herokuapp.com/login"
+ORIGIN = "https://f-test-cf.herokuapp.com/login-1"

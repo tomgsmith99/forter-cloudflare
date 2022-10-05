@@ -1,0 +1,14 @@
+{
+  "name": "cloudflare-tomgsmith99-test",
+  "version": "0.0.0",
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "wrangler": "2.1.6"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "test": "jest"
+  }
+}
